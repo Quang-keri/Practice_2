@@ -34,3 +34,18 @@ body {
 .box div:nth-child(3) {
   background-color: green;
 }
+
+.box div:nth-child(1):active {
+  background-color: blue;
+  transition: 0.4 ease-in-out;
+}
+
+.box div:nth-child(2):active {
+  background-color: green;
+  transition: 0.4 ease-in-out;
+}
+
+.box div:nth-child(3):active {
+  background-color: orange;
+  transition: 0.4 ease-in-out;
+}
